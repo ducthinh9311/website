@@ -36,6 +36,11 @@
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
+  transition: 0.5s;
+}
+.size:hover {
+  background: #fd9644;
+  color: #fff;
 }
 .size_title {
   font-weight: 300;

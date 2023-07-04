@@ -16,6 +16,7 @@ import product3 from "../../assett/images/product3.png";
 import product6 from "../../assett/images/product6.png";
 import Review from "../list/review/Review";
 import { Link } from "react-router-dom";
+import swal from "sweetalert";
 export default function Detail() {
   const { id } = useParams();
   const { handleAddProduct } = useContext(AppContext);
@@ -102,7 +103,14 @@ export default function Detail() {
                   <br></br>
                   <div
                     className="add-to-cart-button"
-                    onClick={() => handleAddProduct(product.id)}
+                    onClick={() => {
+                      swal({
+                        title: "Done!",
+                        text: "Successfully added to cart !",
+                        icon: "success",
+                      });
+                      handleAddProduct(product.id);
+                    }}
                   >
                     {/* <FaCartPlus size={20} /> */}
                     <p className="addtocart"> ADD TO CART</p>
