@@ -62,11 +62,36 @@
   background-color: transparent;
   padding: 0;
 }
+
+.card-body {
+  width: 100%;
+  display: block;
+}
 @media screen and (min-width: 268px) and (max-width: 1024px) {
   .title {
     text-align: center;
   }
   .card_1 {
     margin: 0;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-group {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 1024) {
+  .card-title {
+    font-size: 20px;
+  }
+  .card-title {
+    font-size: 13px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-group {
+    width: 90%;
   }
 }

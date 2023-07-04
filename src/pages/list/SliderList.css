@@ -9,9 +9,24 @@
 @media screen and (min-width: 268px) and (max-width: 1024px) {
   .slick-next,
   .slick-prev {
-    width: 40px !important;
+    width: 60px !important;
   }
   .right {
     right: -21px;
+  }
+  .slick-prev {
+    left: -50px;
+  }
+}
+@media screen and (max-width: 390px) and (max-width: 844px) {
+  .slick-next,
+  .slick-prev {
+    width: 60px !important;
+  }
+  .right {
+    right: -21px;
+  }
+  .slick-prev {
+    left: -50px;
   }
 }
