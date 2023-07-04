@@ -6,6 +6,7 @@ export default function Contact() {
   return (
     <>
       <Header />
+
       <h2 className="title">Contact us</h2>
       <div className="contact_content">
         <p>
@@ -20,6 +21,16 @@ export default function Contact() {
           question about switching items or others related to shipment, PLEASE
           provide us with an order number. <br></br>Thank you rycustomgift Team
         </p>
+      </div>
+      <div className="contact__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9688114115215!2d106.76656647589876!3d10.813698658503426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752658c09cf3b7%3A0xcf83a9a2702a4c4!2zMTk3IMSQxrDhu51uZyBz4buRIDExLCBQaMaw4bubYyBCw6xuaCwgUXXhuq1uIDksIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1688502173548!5m2!1svi!2s"
+          className="map"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
       <Form className="contact_container">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
