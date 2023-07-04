@@ -1,0 +1,27 @@
+.me-auto a {
+  text-decoration: none;
+}
+.logo {
+  width: 200px;
+  /* height: 100px; */
+}
+.nav_container2 {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+/* .container {
+  height: 7vh;
+} */
+.navbar-dark .navbar-toggler-icon {
+  background-image: rgba(255, 255, 255, 0.55);
+}
+.nav-link:hover {
+  color: #00d2d3;
+}
+a {
+  color: #00d2d3;
+}
+a:hover {
+  color: #fd9644;
+}

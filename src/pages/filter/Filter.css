@@ -1,0 +1,89 @@
+.filter-container {
+  width: auto;
+  height: auto;
+}
+.filter-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.galleryWrapper {
+  padding: 2% 3%;
+  width: 80%;
+}
+.filter-container ul button {
+  background: #fff;
+  /* color: black; */
+  padding: 8px 46px;
+  text-transform: uppercase;
+  border: navajowhite;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.filterItems ul li button {
+  background: #00d2d3;
+}
+.filterItems ul li button:hover {
+  background: #fd9644;
+  transition: 0.5s;
+}
+.filterItems li button {
+  color: #fff;
+}
+@media screen and (max-width: 650px) {
+  .filter-container ul button {
+    padding: 5px 15px;
+    /* height: 70px; */
+    border-radius: 10px;
+    font-size: 10px;
+    /* width: 70px; */
+  }
+  .filter-container ul {
+    display: block;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+  .filter-container ul {
+    display: block;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    padding: 0 15px;
+  }
+  .filter-container ul button {
+    padding: 5px 15px;
+    /* height: 70px; */
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    /* width: 70px; */
+  }
+}
+@media screen and (max-width: 1024px) and (max-width: 1920px) {
+  .filter-container ul {
+    display: block;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    padding: 0 15px;
+  }
+  .filter-container ul button {
+    padding: 5px 15px;
+    /* height: 70px; */
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    /* width: 70px; */
+  }
+}
