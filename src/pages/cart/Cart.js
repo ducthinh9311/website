@@ -6,6 +6,9 @@ import SimpleSlider from "../slider/Slider";
 import PauseOnHover from "../list/SliderList";
 import NewArrival from "../list/NewArrival";
 import "./Cart.css";
+import mastercard from "../../assett/images/mastercard.jpg";
+import paypal from "../../assett/images/paypal.jpg";
+import visa from "../../assett/images/visa.jpg";
 export default function Cart() {
   const {
     cart,
@@ -76,6 +79,13 @@ export default function Cart() {
                 Total: $ {total.toFixed(2)}
               </div>
               <button className="cart-checkout">CHECKOUT</button>
+            </div>
+            <div className="cart-bank-container">
+              <div className="bank_cart2">
+                <img src={mastercard} />
+                <img src={paypal} />
+                <img src={visa} />
+              </div>
             </div>
           </div>
         </div>

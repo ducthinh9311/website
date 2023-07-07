@@ -121,7 +121,7 @@
 }
 .cart-items-total-price {
   display: flex;
-  margin-left: 160px;
+  margin-left: 170px;
   margin-top: 70px;
   font-weight: 500;
 }
@@ -176,6 +176,19 @@
   background: #fd9644;
   transition: 0.5s;
   border-radius: 20px;
+}
+.bank_cart2 img {
+  width: 80px;
+}
+.bank_cart2 {
+  text-align: center;
+}
+.cart-bank-container {
+  margin-top: 60px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  width: 100%;
 }
 @media screen and (max-width: 576px) {
   .cart-items {
